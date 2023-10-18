@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Settings Start */
+
+.gradient-primary {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 190, 52, 1) 0%,
+        rgba(255, 218, 86, 1) 50%,
+        rgba(255, 215, 166, 1) 100%
+    );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h1 {
+    @apply text-headingColor font-bold text-[50px] leading-[133.2%];
+}
+h2 {
+    @apply text-headingColor font-semibold text-[40px] leading-[133.2%];
+}
+h3 {
+    @apply text-headingColor font-medium text-[35px] leading-normal;
+}
+h4 {
+    @apply text-headingColor font-medium text-[30px] leading-[129.7%];
+}
+h5 {
+    @apply text-headingColor font-medium text-[25px] leading-[129.7%];
+}
+h6 {
+    @apply text-headingColor font-normal text-[20px] leading-[129.7%];
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+p {
+    @apply text-paragraphColor font-normal text-[16px] leading-[151.5%];
 }
+
+li {
+    @apply text-paragraphColor leading-[326.5%] font-normal;
+}
+
+blockquote {
+    @apply italic text-[20px] text-white;
+}
+
+/* Settings End */

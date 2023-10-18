@@ -1,0 +1,90 @@
+.btnYellow {
+    height: 60px;
+    width: 194px;
+    position: relative;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 190, 52, 1) 0%,
+        rgba(255, 218, 86, 1) 50%,
+        rgba(255, 215, 166, 1) 100%
+    );
+    color: #23212a;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 5000;
+}
+
+.btnYellow::before {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 82px;
+    right: 0;
+    background: white;
+    color: #23212a;
+    transition: width 0.5s ease, height 0.5s ease;
+    -webkit-clip-path: circle(41.3% at 100% 100%);
+    clip-path: circle(41.3% at 100% 100%);
+    z-index: ;
+}
+
+.btnYellow:hover::before {
+    height: 60px;
+    background: white;
+    color: #23212a;
+    right: 0;
+    height: 80px;
+    width: 180px;
+    border-radius: 10px;
+    top: -5px;
+    -webkit-clip-path: circle(65.8% at 100% 58%);
+    clip-path: circle(65.8% at 100% 58%);
+    z-index: -20;
+}
+
+.btnBlue {
+    height: 60px;
+    width: 194px;
+    position: relative;
+    background: #091242;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 5000;
+}
+
+.btnBlue::before {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 82px;
+    right: 0;
+    background: #1f2a69;
+    color: white;
+    transition: width 0.5s ease, height 0.5s ease;
+    -webkit-clip-path: circle(41.3% at 100% 100%);
+    clip-path: circle(41.3% at 100% 100%);
+    z-index: ;
+}
+
+.btnBlue:hover::before {
+    height: 60px;
+    background: #1f2a69;
+    color: white;
+    right: 0;
+    height: 80px;
+    width: 180px;
+    border-radius: 10px;
+    top: -5px;
+    -webkit-clip-path: circle(65.8% at 100% 58%);
+    clip-path: circle(65.8% at 100% 58%);
+    z-index: -20;
+}
