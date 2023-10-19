@@ -1,10 +1,24 @@
+"use client";
+import logo from "@/assets/logos/site_logo.svg";
+import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { useMediaQuery } from "react-responsive";
 
-const MainNav = ({ desktopMode, toggleMobileMenu, mobileMenuOpen }) => {
+const MainNav = ({}) => {
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!mobileMenuOpen);
+    };
+
+    const desktopMode = useMediaQuery({
+        query: "(min-width: 1280px)",
+    });
     return (
         <div
-            className={`bg-[rgba(9,18,66,0.25)] ${
+            className={`bg-[rgba(9,18,66,0.25)] relative ${
                 desktopMode
                     ? "h-[78px]"
                     : `${mobileMenuOpen ? "h-auto duration-150" : "h-0"}`

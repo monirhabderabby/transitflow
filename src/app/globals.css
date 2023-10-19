@@ -20,7 +20,7 @@
 }
 
 h1 {
-    @apply text-headingColor font-bold text-[50px] leading-[133.2%];
+    @apply text-headingColor font-bold  text-[30px] lg:text-[50px] leading-[133.2%];
 }
 h2 {
     @apply text-headingColor font-semibold text-[40px] leading-[133.2%];
@@ -60,5 +60,4 @@ blockquote {
     background-image: url(../assets/images/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
 }
