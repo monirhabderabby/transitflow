@@ -14,6 +14,10 @@ module.exports = {
                 headingColor: "#1C1F35",
                 paragraphColor: "#666C89",
             },
+            backgroundImage: {
+                airplace:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbOyxTqVZ6VAbHYQb9iFB1s-65e-WEbJHugPK4YvJc&s",
+            },
         },
     },
     plugins: [],

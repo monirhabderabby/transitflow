@@ -1,8 +1,10 @@
-const Tip = ({ name }) => {
+const Tip = ({ name, color }) => {
     return (
         <section className="flex">
             <div className="min-h-[23px] bg-primary1 w-[5px]"></div>
-            <div className="bg-[#041C37]/50 py-[3px] px-[9px] relative min-h-[23px]">
+            <div
+                className={`bg-[#041C37]/50 py-[3px] px-[9px] relative min-h-[23px] ${color}`}
+            >
                 {name}
             </div>
         </section>

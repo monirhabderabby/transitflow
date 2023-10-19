@@ -56,8 +56,82 @@ blockquote {
 
 /* Settings End */
 
+/* Banner & Header Start */
+
 .banner {
     background-image: url(../assets/images/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.aboutHeader {
+    background-image: linear-gradient(
+            90deg,
+            rgba(4, 28, 55, 1) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 53%,
+            rgba(4, 28, 55, 0.196516106442577) 83%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697689930/Projects/transflow/airplane_kermmc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.servicesHeader {
+    background-image: linear-gradient(
+            90deg,
+            rgba(4, 28, 55, 1) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 53%,
+            rgba(4, 28, 55, 0.196516106442577) 83%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697689938/Projects/transflow/truck_abtl8m.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleServicesHeader {
+    background-image: linear-gradient(
+            90deg,
+            rgba(4, 28, 55, 1) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 53%,
+            rgba(4, 28, 55, 0.196516106442577) 83%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697689905/Projects/transflow/container_lrhroy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.galleryHeader {
+    background-image: linear-gradient(
+            90deg,
+            rgba(4, 28, 55, 1) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 53%,
+            rgba(4, 28, 55, 0.196516106442577) 83%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697689906/Projects/transflow/airplaneLanded_g74rhr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.warehouseTransportation {
+    background-image: linear-gradient(
+            90deg,
+            rgba(4, 28, 55, 1) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 53%,
+            rgba(4, 28, 55, 0.196516106442577) 83%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697689933/Projects/transflow/truckNight_quwxjj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Banner & Header END */
