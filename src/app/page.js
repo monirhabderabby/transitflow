@@ -1,9 +1,9 @@
-import Tip from "@/components/shared/tip/Tip";
+import Banner from "@/components/main/Banner/Banner";
 
 export default function Home() {
     return (
-        <main className=" min-h-screen max-w-[600px] mx-auto py-[200px] bg-gray-100 flex justify-center items-center">
-            <Tip name="Monir Hossain" />
+        <main className="w-full">
+            <Banner />
         </main>
     );
 }

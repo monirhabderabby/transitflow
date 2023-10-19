@@ -1,3 +1,4 @@
+import TopNav from "@/components/shared/Navbar/TopNav";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={rubik.className}>{children}</body>
+            <body className={rubik.className}>
+                <TopNav />
+                {children}
+            </body>
         </html>
     );
 }

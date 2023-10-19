@@ -4,6 +4,12 @@
 
 /* Settings Start */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .gradient-primary {
     background: linear-gradient(
         90deg,
@@ -44,4 +50,15 @@ blockquote {
     @apply italic text-[20px] text-white;
 }
 
+.container {
+    @apply max-w-[1366px] mx-auto px-[25px];
+}
+
 /* Settings End */
+
+.banner {
+    background-image: url(../assets/images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
