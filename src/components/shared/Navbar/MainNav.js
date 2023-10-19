@@ -150,13 +150,6 @@ const MainNav = ({}) => {
                         >
                             Contact{" "}
                         </Link>
-                        <div
-                            className={`${
-                                desktopMode
-                                    ? "w-[1px] h-[19px] bg-white"
-                                    : "w-full h-[1px] bg-white"
-                            } my-auto`}
-                        ></div>
                     </div>
                 </div>
                 <div className="right_side"></div>
