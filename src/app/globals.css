@@ -61,8 +61,15 @@ blockquote {
         #ffda56 58.66%,
         #ffd7a6 116.84%
     );
-    height: 17px;
-    width: 17px;
+}
+
+.blackOverlay {
+    background: linear-gradient(
+        0deg,
+        #091242 14.34%,
+        rgba(60, 60, 60, 0) 43.86%
+    );
+    background-blend-mode: multiply;
 }
 
 /* Settings End */
@@ -159,21 +166,4 @@ blockquote {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.highlight:first-child {
-    border: 1px solid #d4d4d4;
-    border-left: 0;
-}
-
-.highlight:last-child {
-    border: 1px solid #d4d4d4;
-    border-right: 0;
-    border-left: 0;
-}
-
-.highlight:not(:first-child):not(:last-child) {
-    /* Your CSS styles here */
-    border: 1px solid #d4d4d4;
-    border-left: 0;
 }
