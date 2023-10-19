@@ -54,6 +54,17 @@ blockquote {
     @apply max-w-[1366px] mx-auto px-[25px];
 }
 
+.linear {
+    background: linear-gradient(
+        94deg,
+        #ffb629 -1.21%,
+        #ffda56 58.66%,
+        #ffd7a6 116.84%
+    );
+    height: 17px;
+    width: 17px;
+}
+
 /* Settings End */
 
 /* Banner & Header Start */
@@ -135,3 +146,34 @@ blockquote {
 }
 
 /* Banner & Header END */
+
+.containerImage {
+    background-image: linear-gradient(
+            0deg,
+            rgba(4, 28, 55, 0.5718662464985995) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 60%,
+            rgba(4, 28, 55, 0.196516106442577) 89%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697703953/Projects/transflow/Photo_4_fsk5da.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.highlight:first-child {
+    border: 1px solid #d4d4d4;
+    border-left: 0;
+}
+
+.highlight:last-child {
+    border: 1px solid #d4d4d4;
+    border-right: 0;
+    border-left: 0;
+}
+
+.highlight:not(:first-child):not(:last-child) {
+    /* Your CSS styles here */
+    border: 1px solid #d4d4d4;
+    border-left: 0;
+}
