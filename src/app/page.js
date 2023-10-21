@@ -1,4 +1,5 @@
 import Banner from "@/components/main/Banner/Banner";
+import Contact from "@/components/main/Contact/Contact";
 import TransportingHighlight from "@/components/main/TransportingHighlight/TransportingHighlight";
 import WhatWeDo from "@/components/main/WhatWeDo/WhatWeDo";
 import WhyChoose from "@/components/main/WhyChoose/WhyChoose";
@@ -14,6 +15,7 @@ export default function Home() {
             <TransportingHighlight />
             <WhyChoose />
             <ExpertTeam />
+            <Contact />
         </main>
     );
 }
