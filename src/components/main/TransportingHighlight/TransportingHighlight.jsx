@@ -46,6 +46,7 @@ const TransportingHighlight = () => {
                                     width={320}
                                     height={407}
                                     layout="responsive"
+                                    alt="truck"
                                 />
                                 <div className="absolute top-0 left-0 blackOverlay h-[407px] w-[290px]"></div>
                                 <div className="absolute bottom-[25px] left-[25px]">

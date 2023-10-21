@@ -57,6 +57,7 @@ const WhatWeDo = () => {
                                             src={icon}
                                             width={64}
                                             height={105}
+                                            alt="truck"
                                         />
                                     </div>
                                     <div className="h-[115px] w-[1px] bg-[#D8D8D8]"></div>

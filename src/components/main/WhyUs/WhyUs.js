@@ -60,6 +60,7 @@ const WhyUs = () => {
                                             src={icon}
                                             height={58}
                                             width={58}
+                                            alt="profile"
                                         />
                                         <h5 className="flex-wrap max-w-[325px]">
                                             {title}
@@ -75,6 +76,7 @@ const WhyUs = () => {
                             width={472}
                             height={400}
                             layout="responsive"
+                            alt="profile"
                         />
                         <div className="w-[300px] h-[248px] bg-white  absolute left-[-100px] bottom-[-70px] p-[20px]">
                             <Image
@@ -82,6 +84,7 @@ const WhyUs = () => {
                                 width={280}
                                 height={228}
                                 layout="responsive"
+                                alt="profile"
                             />
                         </div>
                     </div>

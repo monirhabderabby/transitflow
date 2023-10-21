@@ -26,7 +26,7 @@ const MainNav = ({}) => {
         >
             {!desktopMode && (
                 <div className="bg-primary2 h-[40px] w-full px-[25px] flex justify-between items-center z-auto">
-                    <Image src={logo} width={140} height={36} />
+                    <Image src={logo} width={140} height={36} alt="profile" />
                     <div className="bg-primary2/5">
                         {mobileMenuOpen ? (
                             <AiOutlineClose

@@ -167,3 +167,18 @@ blockquote {
     background-size: cover;
     background-position: center;
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    margin: 0 auto;
+    width: 100% !important;
+
+    /* Center slide text vertically */
+}

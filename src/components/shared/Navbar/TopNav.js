@@ -58,7 +58,12 @@ const TopNav = () => {
                 <div className="bg-primary2 h-[120px] w-full">
                     <div className="container flex h-full justify-between items-center ">
                         <div>
-                            <Image src={logo} width={210} height={36} />
+                            <Image
+                                src={logo}
+                                width={210}
+                                height={36}
+                                alt="profile"
+                            />
                         </div>
                         <div className="flex gap-x-[40px]">
                             {infos?.map(({ icon, id, title, desc }) => {
@@ -72,6 +77,7 @@ const TopNav = () => {
                                                 src={icon}
                                                 width={63}
                                                 height={63}
+                                                alt="profile"
                                             />
                                         </div>
                                         <div>
