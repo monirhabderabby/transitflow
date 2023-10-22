@@ -1,4 +1,5 @@
 import TopNav from "@/components/shared/Navbar/TopNav";
+import Footer from "@/components/shared/footer/Footer";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
             <body className={rubik.className}>
                 <TopNav />
                 {children}
+                <Footer />
             </body>
         </html>
     );
