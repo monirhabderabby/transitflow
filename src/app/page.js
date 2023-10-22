@@ -5,6 +5,7 @@ import WhatWeDo from "@/components/main/WhatWeDo/WhatWeDo";
 import WhyChoose from "@/components/main/WhyChoose/WhyChoose";
 import WhyUs from "@/components/main/WhyUs/WhyUs";
 import ExpertTeam from "@/components/shared/ExpertTeam/ExpertTeam";
+import OurBlog from "@/components/shared/ourBlog/OurBlog";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <WhyChoose />
             <ExpertTeam />
             <Contact />
+            <OurBlog />
         </main>
     );
 }

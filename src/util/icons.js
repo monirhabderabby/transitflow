@@ -8,6 +8,7 @@ import fillPhoneBlue from "@/assets/icons/fill/phoneBlue.svg";
 import fillPlanWithGlobal from "@/assets/icons/fill/planWithGlobal.svg";
 import fillShip from "@/assets/icons/fill/ship.svg";
 import fillTransPricing from "@/assets/icons/fill/transport_pricing.svg";
+import calender from "@/assets/icons/outline/calender.svg";
 
 export const transIcons = () => {
     return {
@@ -21,5 +22,6 @@ export const transIcons = () => {
         fillEmailBlue,
         fillPhoneBlue,
         fillClockBlue,
+        calender,
     };
 };
