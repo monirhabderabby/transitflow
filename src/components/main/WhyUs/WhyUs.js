@@ -2,6 +2,7 @@ import Tip from "@/components/shared/tip/Tip";
 
 import dollerIcon from "@/assets/icons/fill/doller.svg";
 import containerIcon from "@/assets/icons/fill/package.svg";
+import ImageClap from "@/components/shared/compo/ImageClap";
 import Highlight from "@/components/shared/highlight/highlight";
 import Image from "next/image";
 
@@ -34,9 +35,9 @@ const WhyUs = () => {
     return (
         <div className="relative">
             <div className="containerImage h-[504px]"></div>
-            <section className="max-w-[1200px] bg-white p-[86px] relative top-[-150px] mx-auto ">
-                <section className="flex justify-between">
-                    <div className="w-[472px]">
+            <section className="max-w-[1200px] bg-white p-[20px] md:p-[86px] relative top-[-150px] mx-auto ">
+                <section className="flex flex-col lg:flex-row justify-between">
+                    <div className="w-full md:w-[572px]">
                         <Tip name="Why Us" />
                         <h3 className="my-[12px]">
                             We provide full range global logistics solution
@@ -70,23 +71,11 @@ const WhyUs = () => {
                             })}
                         </div>
                     </div>
-                    <div className="w-[472px] relative hidden lg:block">
-                        <Image
-                            src="https://res.cloudinary.com/dzlrpspps/image/upload/v1697709778/Projects/transflow/Photo_6_gopvbq.png"
-                            width={472}
-                            height={400}
-                            layout="responsive"
-                            alt="profile"
+                    <div className="hidden md:block w-full lg:w-[500px]">
+                        <ImageClap
+                            img1="https://res.cloudinary.com/dzlrpspps/image/upload/v1697709778/Projects/transflow/Photo_6_gopvbq.png"
+                            img2="https://res.cloudinary.com/dzlrpspps/image/upload/v1697711563/Projects/transflow/Photo_7_ymnvqy.png"
                         />
-                        <div className="w-[300px] h-[248px] bg-white  absolute left-[-100px] bottom-[-70px] p-[20px]">
-                            <Image
-                                src="https://res.cloudinary.com/dzlrpspps/image/upload/v1697711563/Projects/transflow/Photo_7_ymnvqy.png"
-                                width={280}
-                                height={228}
-                                layout="responsive"
-                                alt="profile"
-                            />
-                        </div>
                     </div>
                 </section>
                 <div className="mt-[112px]">
