@@ -151,6 +151,19 @@ blockquote {
     background-size: cover;
     background-position: center;
 }
+.pricingHeader {
+    background-image: linear-gradient(
+            90deg,
+            rgba(4, 28, 55, 1) 0%,
+            rgba(4, 28, 55, 0.196516106442577) 53%,
+            rgba(4, 28, 55, 0.196516106442577) 83%,
+            rgba(255, 218, 86, 0) 100%
+        ),
+        url("https://res.cloudinary.com/dzlrpspps/image/upload/v1697976676/Projects/transflow/Photo_8_pjtwuj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Banner & Header END */
 
@@ -168,17 +181,20 @@ blockquote {
     background-position: center;
 }
 
-.swiper {
-    width: 100%;
-    height: 100%;
+.pricing_list {
+    list-style: none;
+    margin-left: auto;
+    padding: 21px 0px;
+}
+.pricing_list:first-child {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    margin: 0 auto;
-    width: 100% !important;
+.pricing_list:not(:first-child):not(:last-child) {
+    border-bottom: 1px solid #d6d6d6;
+}
 
-    /* Center slide text vertically */
+.pricing_list:last-child {
+    border-bottom: 1px solid #d6d6d6;
 }
