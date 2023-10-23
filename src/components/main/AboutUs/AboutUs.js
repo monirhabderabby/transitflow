@@ -4,7 +4,7 @@ import Tip from "@/components/shared/tip/Tip";
 
 const AboutUs = () => {
     return (
-        <div className="container flex items-center mt-[103px]">
+        <div className="container flex items-center my-[103px]">
             <div className="flex-1 hidden md:block">
                 <ImageClap
                     img1="https://res.cloudinary.com/dzlrpspps/image/upload/v1697989915/Projects/transflow/Photo_9_eyhbrm.png"

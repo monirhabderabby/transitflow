@@ -50,12 +50,12 @@ const WhatWeDoFull = () => {
         },
     ];
     return (
-        <div className="container mt-[108px]">
+        <div className="container my-[108px] mt-[200px]">
             <div className="flex flex-col items-center gap-y-[18px]">
                 <Tip name="What We Do" />
                 <h3 className="text-center">Our Logistics Services</h3>
             </div>
-            <div className="mt-[55px] grid grid-cols-1 md:grid-cols-3 gap-[30px] md:gap-y-[53px] md:gap-x-[192px]">
+            <div className="mt-[55px] grid grid-cols-1 md:grid-cols-3 gap-[30px] md:gap-[40px] lg:gap-y-[53px] lg:gap-x-[192px]">
                 {features?.map(({ icon, title, id, desc }) => {
                     return (
                         <div className="flex flex-col" key={id}>
