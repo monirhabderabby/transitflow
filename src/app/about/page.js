@@ -3,6 +3,7 @@ import WhatWeDoFull from "@/components/main/WhatWeDoFull/WhatWeDoFull";
 import ExpertTeam from "@/components/shared/ExpertTeam/ExpertTeam";
 import Faq from "@/components/shared/Faq/Faq";
 import Price from "@/components/shared/Price/Price";
+import OurPartners from "@/components/shared/compo/OurPartners";
 import Header from "@/components/shared/header/Header";
 
 const About = () => {
@@ -23,6 +24,9 @@ const About = () => {
             </div>
             <div className="mt-[100px]">
                 <Faq />
+            </div>
+            <div>
+                <OurPartners />
             </div>
         </div>
     );

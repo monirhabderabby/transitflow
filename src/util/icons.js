@@ -1,11 +1,14 @@
+import fillBox from "@/assets/icons/fill/box.svg";
 import fillClockBlue from "@/assets/icons/fill/clockBlue.svg";
 import fillClockYellow from "@/assets/icons/fill/clockYellow.svg";
 import fillEmailBlue from "@/assets/icons/fill/emailBlue.svg";
+import fillEnvironment from "@/assets/icons/fill/environment.svg";
 import fillWorld from "@/assets/icons/fill/global.svg";
 import fillHeadphone from "@/assets/icons/fill/headphone.svg";
 import fillPackages from "@/assets/icons/fill/package.svg";
 import fillPhoneBlue from "@/assets/icons/fill/phoneBlue.svg";
 import fillPlanWithGlobal from "@/assets/icons/fill/planWithGlobal.svg";
+import fillSheild from "@/assets/icons/fill/sheild.svg";
 import fillShip from "@/assets/icons/fill/ship.svg";
 import fillTransPricing from "@/assets/icons/fill/transport_pricing.svg";
 import outlineairplane from "@/assets/icons/outline/airplane.svg";
@@ -35,5 +38,8 @@ export const transIcons = () => {
         outlineProject,
         outlineTruck,
         outlineCustomerCare,
+        fillBox,
+        fillSheild,
+        fillEnvironment,
     };
 };

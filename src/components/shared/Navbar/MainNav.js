@@ -80,7 +80,7 @@ const MainNav = ({}) => {
                         } justify-center items-center h-full gap-x-[30px]`}
                     >
                         <Link
-                            href="/"
+                            href="/about"
                             className={`text-white  h-full flex items-center text-[16px] leading-[135.023%] hover:border-b-[3px] transition-all duration-100 ${
                                 desktopMode ? "p-0" : "py-[20px]"
                             }`}

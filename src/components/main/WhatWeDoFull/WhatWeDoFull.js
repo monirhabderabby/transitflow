@@ -50,7 +50,7 @@ const WhatWeDoFull = () => {
         },
     ];
     return (
-        <div className="container my-[108px] mt-[200px]">
+        <div className="container my-[108px] mt-[100px]">
             <div className="flex flex-col items-center gap-y-[18px]">
                 <Tip name="What We Do" />
                 <h3 className="text-center">Our Logistics Services</h3>
