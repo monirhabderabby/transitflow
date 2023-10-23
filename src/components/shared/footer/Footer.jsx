@@ -103,7 +103,7 @@ const Footer = () => {
             <section className="bg-primary2 outline-none">
                 <div className="container py-[42px] px-[45px] grid grid-cols-2 md:grid-cols-4 gap-y-[30px]">
                     {/* first */}
-                    <div className="flex-1 mx-auto pl-[10px] lg:pl-[45px] col-span-2">
+                    <div className="flex-1 mx-auto pl-[10px] lg:pl-[45px] col-span-2 md:col-span-1">
                         <p className="text-white">
                             Leverage agile frameworks to provide a robust
                             synopsis for strategy collaborative thinking to
@@ -169,7 +169,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* fourth */}
-                    <div className="flex-1 mx-auto col-span-2">
+                    <div className="flex-1 mx-auto col-span-2 md:col-span-1">
                         <div>
                             <input
                                 type="email"
