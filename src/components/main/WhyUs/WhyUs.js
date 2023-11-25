@@ -3,7 +3,7 @@ import Tip from "@/components/shared/tip/Tip";
 import dollerIcon from "@/assets/icons/fill/doller.svg";
 import containerIcon from "@/assets/icons/fill/package.svg";
 import ImageClap from "@/components/shared/compo/ImageClap";
-import Highlight from "@/components/shared/highlight/highlight";
+import Highlight from "@/components/shared/highlight/Highlight";
 import Image from "next/image";
 
 const WhyUs = () => {
