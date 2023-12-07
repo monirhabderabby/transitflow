@@ -1,6 +1,6 @@
 "use client";
 import blueClock from "@/assets/icons/fill/clockBlue.svg";
-import blueEmail from "@/assets/icons/fill/emailBlue.svg";
+import blueEmail from "@/assets/icons/fill/emailBlue.png";
 import phoneIcon from "@/assets/icons/fill/phoneBlue.svg";
 import logo from "@/assets/logos/site_logo.svg";
 import Image from "next/image";
