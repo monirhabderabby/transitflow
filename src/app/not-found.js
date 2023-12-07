@@ -9,7 +9,9 @@ const Custom404 = () => {
                 <span className="text-primary2">4</span>
             </h1>
             <h3 className="text-center">opps! Page not found.</h3>
-            <p className="text-center">Let's get you where you need to be.</p>
+            <p className="text-center">
+                Let&apos;s get you where you need to be.
+            </p>
             <Link
                 href="/"
                 className="py-[19px] px-[45px] text-[16px] font-normal linear mt-[26px]"
